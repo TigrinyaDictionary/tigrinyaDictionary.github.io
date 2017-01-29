@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include google-analytics.html %}
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+       {% if page.title == 'About' %}
+          <div class="photo-about">
+              <h1 class="headline-kt"> About me</h1>
+          </div>
+        {% endif %}
+      <div class="wrapper">
+        {{ content }}
+      </div>
+
+    </div>
+
+    
+   {% include footer.html %}
+
+  </body>
+</html>
