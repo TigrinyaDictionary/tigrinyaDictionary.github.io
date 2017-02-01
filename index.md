@@ -1,10 +1,2 @@
- ---
- layout: page
- title: Index
- permalink: /
- ---
-
-
- ## Welcome to Tigrinya Dictionary
- 
+## Welcome to Tigrinya Dictionary
 
