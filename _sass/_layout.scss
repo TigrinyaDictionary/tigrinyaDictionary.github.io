@@ -1,14 +1,22 @@
 /* Site Header
- * ============================================== */
+ * ============================================== backgroud-color: #2dc3e8;*/
     .site-header {
         height: 55px;
-        background-color: #2dc3e8;
-        position: relative;
+        background-color: #fff;
+        position: fixed;
         width: 100%;
+        z-index:100;
     }
 
     .site-header a {color: #444;}
-    .site-header a:hover {color:#fff;}
+    .site-header a:hover {color:#00B2EE;}
+    
+   @include media-query($on-palm) {
+
+   .site-right{
+       font-size:14px;
+    }
+   }
 
     .site-nav {
         padding-top: 16px;
@@ -24,10 +32,12 @@
             position: absolute;
             top: 3px;
             right: 3px;
-            background-color: #2dc3e8;
+            background-color: #ccc;
             border: 1px solid $grey-color-light;
             border-radius: 5px;
             text-align: right;
+            margin-right:2px;
+
 
             .menu-icon {
                 display: block;
@@ -49,6 +59,7 @@
                 display: block;
                 padding: 5px 10px;
             }
+           
            
         }
 

@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * ============================================== */
 body {
   font-size: 18px;
-  line-height: 1.4446;
+  line-height: 1.1446;
   font-weight: 400;
   color: #333333;
   background-color: #FFF !important;
@@ -48,7 +48,7 @@ figcaption {
 /* Lists
  * ============================================== */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 0px; }
 
 li > ul,
 li > ol {
@@ -166,19 +166,23 @@ table {
   background-color: #f8f8f8; }
 
 /* Site Header
- * ============================================== */
+ * ============================================== backgroud-color: #2dc3e8;*/
 .site-header {
   height: 55px;
-  background-color: #2dc3e8;
-  position: relative;
-  width: 100%; }
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
 
 .site-header a {
   color: #444; }
 
 .site-header a:hover {
-  color: #fff; }
+  color: #00B2EE; }
 
+@media screen and (max-width: 700px) {
+  .site-right {
+    font-size: 14px; } }
 .site-nav {
   padding-top: 16px;
   float: right;
@@ -191,10 +195,11 @@ table {
       position: absolute;
       top: 3px;
       right: 3px;
-      background-color: #2dc3e8;
+      background-color: #ccc;
       border: 1px solid #cfcfcf;
       border-radius: 5px;
-      text-align: right; }
+      text-align: right;
+      margin-right: 2px; }
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -211,7 +216,7 @@ table {
   .site-nav .page-link {
     font-family: 'Open Sans';
     font-weight: 400 !important;
-    line-height: 1.4446;
+    line-height: 1.1446;
     letter-spacing: 0.05em; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -647,3 +652,64 @@ div.ui-datepicker {
 #mobile {
   display: block;
   padding-bottom: 5px; }
+
+/* carousel css
+================================================= */
+.rs-carousel {
+  display: flex;
+  flex-direction: column; }
+
+.prev, .next {
+  position: absolute;
+  top: 25%;
+  z-index: 99; }
+
+.next {
+  right: 20px; }
+
+.prev {
+  left: 20px; }
+
+.fa-arrow-left, .fa-arrow-right {
+  color: #000;
+  font-size: 30px !important; }
+
+.rs-carousel-pagination li {
+  list-style: none;
+  padding-right: 5px; }
+
+ol.rs-carousel-pagination {
+  position: absolute;
+  z-index: 998;
+  top: 50%;
+  left: 50%; }
+
+.rs-carousel-pagination {
+  display: flex;
+  justify-content: center; }
+
+.rs-carousel-pagination-link-active a {
+  color: #444; }
+
+.kt-carousel {
+  background-color: #eee; }
+
+.carousel-image {
+  width: 1920px;
+  height: 500px; }
+
+.carousel-image img {
+  width: 1920px; }
+
+/* Index page styling
+========================================================= */
+.kt-indexHeader {
+  text-align: center; }
+
+.intro {
+  background-color: #cecece;
+  padding: 100px 0px 100px 0px; }
+
+.how-to {
+  background-color: #00B2EE;
+  padding: 100px 0px 100px 0px; }
