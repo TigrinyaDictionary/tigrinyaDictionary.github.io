@@ -1,13 +1,18 @@
 
 /*site header css 
  *========================*/
+ .page-maineader{
+    background-image: url(/assets/Images/home.png);
+    height:700px;
+}
 	.site-right{
 
 		 float:left;
 		 padding-top:16px;
 		 text-transform:uppercase;
 		
-	}
+  }
+ 
     .site-right .page-link {
 		font-weight:700 !important;
 		line-height:1.5;
@@ -188,6 +193,7 @@ div.ui-datepicker{
 ========================================================= */
 .kt-indexHeader{
   text-align:center;
+  padding:40px;
 }
 .intro{
   background-color: #cecece;

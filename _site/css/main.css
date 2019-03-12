@@ -534,6 +534,10 @@ table {
 
 /*site header css 
  *========================*/
+.page-maineader {
+  background-image: url(/assets/Images/home.png);
+  height: 700px; }
+
 .site-right {
   float: left;
   padding-top: 16px;
@@ -704,7 +708,8 @@ ol.rs-carousel-pagination {
 /* Index page styling
 ========================================================= */
 .kt-indexHeader {
-  text-align: center; }
+  text-align: center;
+  padding: 40px; }
 
 .intro {
   background-color: #cecece;
