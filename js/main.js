@@ -23,7 +23,13 @@ jQuery(document).ready(function(){
       $(this).html('<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>');
     })
 	
-	displayIconOnMobile();
+    displayIconOnMobile();
+    
+    const createCube = () => {
+        const template = document.getElementById("cube-template");
+        const fragment = document.importNode(template.content, true);
+        return fragment;
+      };
 
 
 });

@@ -1,15 +1,13 @@
 /* Site Header
  * ============================================== backgroud-color: #2dc3e8;*/
     .site-header {
-        height: 55px;
-        background-color: #fff;
-        position: fixed;
+        position: absolute;
         width: 100%;
         z-index:100;
     }
 
-    .site-header a {color: #444;}
-    .site-header a:hover {color:#00B2EE;}
+    .site-header a {color: #FFF;}
+    .site-header a:hover {color:#FFF;}
     
    @include media-query($on-palm) {
 
