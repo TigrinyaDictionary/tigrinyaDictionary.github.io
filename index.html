@@ -16,7 +16,7 @@ description: list of project including class generator GUI from database tables
     <div class="page-content">
       <div class="page-maineader main">
         <header>
-          <div class="stripes">
+          <div class="stripes wrapper">
             <div class="stripe s1"></div>
             <div class="stripe s2"></div>
             <div class="stripe s3"></div>
@@ -30,16 +30,33 @@ description: list of project including class generator GUI from database tables
           <div class="devices-available">
 
               <div class="laptop-devices-content">
-                  <h3 class="intro-content-title">Advanced Tigrinya Dictionary</h2>
+                  <h3 class="intro-content-title">Finally, a Tigrinya<>English Dictionary for PC!</h3>
             
-                  <p class="common-BodyText">The first Tigrinya dictionary of its  kind which is available in Desktop,laptop and tablets. The dictionary can also be accessed offline, where internet is not available.</p>
+                  <p class="common-BodyText">We’ve built the first full Tigrinya<>English dictionary for PC. Access via desktop, laptop or tablet, wherever you are.</p>
             
-                  <p class="common-BodyText">
-                    
-                  </p>
-                  <a href="https://www.microsoft.com/store/apps/<your app's Store ID>" type="button" class="btn btn-success">
+                    <a href="https://www.microsoft.com/store/apps/<your app's Store ID>" type="button" class="btn btn-success">
                       Download Dictionary
                     </a>
+                    <div class="dictionary-functionality-content">
+                        <h4 class="intro-content-title">What does it do?</h4>
+                      <aside>
+                         <ul>
+                          <li class="common-BodyText">
+                              Search by English or Tigrinya words, with both alphabets.
+                          </li>
+                          <li class="common-BodyText">
+                              View the definition, grammatical info and examples of use.
+                          </li>
+                          <li class="common-BodyText">
+                              Over 40,000 Tigrinya words defined.
+                          </li>
+                          <li class="common-BodyText">
+                              Access online or offline.
+                          </li>
+                          
+                        </ul>
+                      </aside>
+                    </div>
                 </div>
           
           <div class="laptop">
@@ -123,28 +140,17 @@ description: list of project including class generator GUI from database tables
     
         </header>
         <section class="dictionary-functionality">
-            <h2 class="intro-content-title">Dictionary Functionality</h2>
+            <h2 class="intro-content-title">Future Development</h2>
           <section class="tablet">
               <div class="dictionary-functionality-content">
-                  <aside>
-                     <ul>
-                      <li class="common-BodyText">
-                        The Tigrinya dictionary is available in offline mode
-                      </li>
-                      <li class="common-BodyText">
-                        Ability to search by English and Tigrinya words
-                      </li>
-                      <li class="common-BodyText">
-                        Definition of search word and more examples
-                      </li>
-                      <li class="common-BodyText">
-                        Multiple Examples of how the search word can be used as Adjective,noun or verb
-                      </li>
-                      <li class="common-BodyText">
-                        About 40,000 Tigrinya words enteries
-                      </li>
-                    </ul>
-                  </aside>
+                <p class="common-BodyText">
+                  Are we missing a word? We’re adding to the dictionary all the time but 
+                  let us know if you’ve spotting something we missed.
+                </p>
+                <p class="common-BodyText">
+                  Our team is busy! We’re building the Translations plus working on some other ideas. 
+                  Got feedback? We’d love to hear it. Get in touch at <a href="mailto:info@tigrinyadictionary.co.uk">info@tigrinyadictionary.co.uk</a>
+              </p>
                 </div>
             <div class="tablet-landscape">
               <image src="/assets/Images/landscape-tablet1.PNG"/>
@@ -152,42 +158,7 @@ description: list of project including class generator GUI from database tables
           </section>
         </section>
      
-     
-                
-         <div class="home">
-          <div class="kt-content">
-             
-               <div class="future">
-                 <div class="wrapper">
-
-                  <h2 class="kt-indexHeader"> Future Development </h2>
-                  <p> Our Team is working on making this app available on phone devices and improving the dictionary contents
-                  </p>
-                </div>
-                 </div>
-
-           
-  
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
-       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-
-
-  
-
-</div>
-
-            
-
-      </div>
+      
 
     </div>
 
