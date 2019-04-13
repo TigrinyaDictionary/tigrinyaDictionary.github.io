@@ -349,7 +349,7 @@ aside ul li:before {
   max-width: 1040px;
   padding-left: 124px;
   @include media-query ($on-palm){
-    padding-left: 24px;
+    padding: 0 55px;
   }
  
 }
@@ -374,12 +374,13 @@ aside ul li:before {
     /* padding-right: 2px; */
     width: 339px;
 }
-.dictionary-functionality-content{
+.future-development-content{
   max-width: 500px;
   padding-top:90px;
 
   @include media-query($on-palm){
     margin-left: 0px;
+    padding-top: 0px;
   }
 }
 section .tablet{
@@ -388,6 +389,7 @@ section .tablet{
   justify-content: space-evenly;
   @include media-query($on-palm){
     flex-direction: column;
+    
   }
 }
 
@@ -438,6 +440,7 @@ section .tablet{
 }
 .laptop-devices-content .dictionary-functionality-content{
   margin: 0px;
+  padding-top: 90px;
 }
 .dictionary-functionality-content h4{
   padding: 50px 0 10px 0;
