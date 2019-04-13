@@ -309,7 +309,7 @@ input.search{
   
     @include media-query($on-palm){
       padding-top: 2px;
-      width:480px;
+      width:360px;
     }
     @include media-query($on-laptop){
       grid-column: 1/span 6;
@@ -362,6 +362,8 @@ aside ul li:before {
   margin-left: 154px;
   @include media-query($on-palm){
     margin-left:10px;
+    width: 271px;
+    height: 228px;
   }
 }
 .tablet-landscape img{
@@ -373,6 +375,9 @@ aside ul li:before {
     padding-left: 32px;
     /* padding-right: 2px; */
     width: 339px;
+    @include media-query($on-palm){
+      width: 212px;
+    }
 }
 .future-development-content{
   max-width: 500px;
@@ -441,6 +446,10 @@ section .tablet{
 .laptop-devices-content .dictionary-functionality-content{
   margin: 0px;
   padding-top: 90px;
+  @include media-query($on-palm){
+    padding-top: 130px;
+
+  }
 }
 .dictionary-functionality-content h4{
   padding: 50px 0 10px 0;
@@ -451,6 +460,7 @@ section .tablet{
   padding: 75px 0 75px 0;
   @include media-query($on-palm){
     grid-column: 4/span 6;
+    width: 310px;
   }
 }
 .main-introduction h2{

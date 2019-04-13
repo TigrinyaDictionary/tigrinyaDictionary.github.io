@@ -817,7 +817,7 @@ input.search {
   @media screen and (max-width: 769px) {
     .laptop-devices-content {
       padding-top: 2px;
-      width: 480px; } }
+      width: 360px; } }
   @media screen and (max-width: 1080px) {
     .laptop-devices-content {
       grid-column: 1/span 6; } }
@@ -866,7 +866,9 @@ aside ul li:before {
   margin-left: 154px; }
   @media screen and (max-width: 769px) {
     .tablet-landscape {
-      margin-left: 10px; } }
+      margin-left: 10px;
+      width: 271px;
+      height: 228px; } }
 
 .tablet-landscape img {
   /* height: 200px; */
@@ -877,6 +879,9 @@ aside ul li:before {
   padding-left: 32px;
   /* padding-right: 2px; */
   width: 339px; }
+  @media screen and (max-width: 769px) {
+    .tablet-landscape img {
+      width: 212px; } }
 
 .future-development-content {
   max-width: 500px;
@@ -939,6 +944,9 @@ section .tablet {
 .laptop-devices-content .dictionary-functionality-content {
   margin: 0px;
   padding-top: 90px; }
+  @media screen and (max-width: 769px) {
+    .laptop-devices-content .dictionary-functionality-content {
+      padding-top: 130px; } }
 
 .dictionary-functionality-content h4 {
   padding: 50px 0 10px 0; }
@@ -949,7 +957,8 @@ section .tablet {
   padding: 75px 0 75px 0; }
   @media screen and (max-width: 769px) {
     .main-introduction {
-      grid-column: 4/span 6; } }
+      grid-column: 4/span 6;
+      width: 310px; } }
 
 .main-introduction h2 {
   padding-bottom: 20px; }
