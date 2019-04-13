@@ -543,7 +543,7 @@ table {
 
 .main header .stripes {
   display: grid;
-  grid: repeat(3, 200px)/repeat(10, 1fr); }
+  grid: repeat(3, 250px)/repeat(10, 1fr); }
   @media screen and (max-width: 769px) {
     .main header .stripes {
       grid: repeat(5, 200px)/repeat(10, 1fr); } }
@@ -602,15 +602,14 @@ main header .stripes .stripe {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
-  align-self: center;
-  margin-left: 150px; }
+  align-self: center; }
 
 .laptop {
   grid-row: 1;
   grid-column: 10/span 3;
   position: relative;
-  width: 484px;
-  height: 305px;
+  width: 418px;
+  height: 355px;
   /* margin-top: 2em;
   left: calc(50% - 292px);*/
   -webkit-transform: none;
@@ -630,7 +629,7 @@ main header .stripes .stripe {
   left: 17px;
   right: 17px;
   top: 40px;
-  height: 490px;
+  height: 438px;
   opacity: .3;
   background: #7692b3;
   -webkit-filter: blur(30px);
@@ -662,11 +661,11 @@ main header .stripes .stripe {
   border-radius: 4px;
   -webkit-box-shadow: -1px 1px 6px rgba(171, 183, 204, 0.2);
   box-shadow: -1px 1px 6px rgba(171, 183, 204, 0.2);
-  background: #222; }
+  background: #fff; }
 
 .laptop .chassis {
   width: 100%;
-  height: 142px;
+  height: 135px;
   top: calc(100% - 11px);
   border-radius: 8px 8px 14px 14px;
   -webkit-transform: perspective(880px) rotateX(40deg);
@@ -683,16 +682,16 @@ main header .stripes .stripe {
   top: 8px;
   height: 66px;
   border-radius: 2px 2px 4px 4px;
-  background: linear-gradient(45deg, #101215, #8190a0); }
+  background: linear-gradient(45deg, #c2bfbf, #a8aaac); }
 
 .laptop .trackpad {
-  left: 205px;
-  right: 205px;
+  left: 138px;
+  right: 138px;
   top: 76px;
-  height: 52px;
+  height: 44px;
   border-radius: 4px 4px 6px 6px;
   opacity: .3;
-  background: linear-gradient(45deg, #b2bdcc, #c1ccd8); }
+  background: linear-gradient(45deg, #b2bdcc, #1f5188); }
 
 /*.laptop .chassis * {
   /*opacity: .3;
@@ -782,7 +781,6 @@ input.search {
   grid-row: 2;
   /* grid: auto/1fr auto;*/
   grid-gap: 0 70px;
-  padding: 0 40px;
   margin: 0 auto;
   max-width: 1040px; }
   @media screen and (max-width: 769px) {
@@ -851,7 +849,7 @@ aside ul li:before {
 .dictionary-functionality {
   display: flex;
   background: #f6f9fc;
-  padding: 150px 0 150px 0;
+  padding: 50px 0 150px 0;
   flex-direction: column; }
   @media screen and (max-width: 769px) {
     .dictionary-functionality {
@@ -875,22 +873,19 @@ aside ul li:before {
   width: 339px; }
 
 .dictionary-functionality-content {
-  margin-left: 300px;
-  max-width: 650px; }
+  max-width: 500px;
+  padding-top: 90px; }
   @media screen and (max-width: 769px) {
     .dictionary-functionality-content {
       margin-left: 0px; } }
 
 section .tablet {
   display: flex;
-  padding-top: 10px;
+  padding: 10px 0 30px 0;
   justify-content: space-evenly; }
   @media screen and (max-width: 769px) {
     section .tablet {
       flex-direction: column; } }
-
-.dictionary-functionality h2 {
-  align-self: center; }
 
 .future-works {
   display: flex;
@@ -939,6 +934,17 @@ section .tablet {
 
 .dictionary-functionality-content h4 {
   padding: 50px 0 10px 0; }
+
+.main-introduction {
+  grid-row: 1;
+  grid-column: 2/span 6;
+  padding: 75px 0 75px 0; }
+
+.main-introduction h2 {
+  padding-bottom: 20px; }
+
+.future-development {
+  background-color: #f6f9fc; }
 
 .front {
   transform: rotateY(0deg) translateZ(50px); }
