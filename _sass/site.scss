@@ -472,7 +472,12 @@ section .tablet{
 }
 .download-link{
   display: flex;
-    justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+.windows-badge{
+  width: 127px; 
+  height: 52px;
+  padding-right: 45px;
 }
 .front{transform: rotateY(0deg) translateZ(50px)}
 .back{transform: rotateY(-180deg) translateZ(50px)}
