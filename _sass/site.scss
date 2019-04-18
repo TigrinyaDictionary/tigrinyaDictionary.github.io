@@ -446,6 +446,7 @@ section .tablet{
 .laptop-devices-content .dictionary-functionality-content{
   margin: 0px;
   padding-top: 90px;
+  padding-bottom: 40px;
   @include media-query($on-palm){
     padding-top: 130px;
 
@@ -468,6 +469,10 @@ section .tablet{
 }
 .future-development{
   background-color: #f6f9fc;
+}
+.download-link{
+  display: flex;
+    justify-content: space-evenly;
 }
 .front{transform: rotateY(0deg) translateZ(50px)}
 .back{transform: rotateY(-180deg) translateZ(50px)}
