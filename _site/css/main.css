@@ -170,7 +170,9 @@ table {
 .site-header {
   position: absolute;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  display: flex;
+  justify-content: space-between; }
 
 .site-header a {
   color: #FFF; }
@@ -866,7 +868,7 @@ aside ul li:before {
   margin-left: 154px; }
   @media screen and (max-width: 769px) {
     .tablet-landscape {
-      margin-left: 10px;
+      margin-left: -7px;
       width: 271px;
       height: 228px; } }
 
@@ -975,6 +977,35 @@ section .tablet {
   width: 127px;
   height: 52px;
   padding-right: 45px; }
+
+.social-media-block {
+  padding-top: 16px; }
+
+.social-media {
+  display: flex;
+  margin-right: 250px; }
+  .social-media li {
+    list-style: none;
+    font-size: 25px; }
+  @media screen and (max-width: 769px) {
+    .social-media {
+      margin-right: 10px; } }
+
+.soacial-media-icons {
+  padding-left: 30px; }
+  @media screen and (max-width: 769px) {
+    .soacial-media-icons {
+      padding-left: 5px; } }
+
+.footer .wrapper {
+  display: flex; }
+.footer .privacy-policy {
+  padding-top: 16px;
+  display: flex; }
+
+@media screen and (max-width: 769px) {
+  .download-link-windows {
+    display: none; } }
 
 .front {
   transform: rotateY(0deg) translateZ(50px); }

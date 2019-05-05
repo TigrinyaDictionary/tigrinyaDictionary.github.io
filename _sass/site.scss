@@ -361,7 +361,7 @@ aside ul li:before {
   background-color: #fff;
   margin-left: 154px;
   @include media-query($on-palm){
-    margin-left:10px;
+    margin-left:-7px;
     width: 271px;
     height: 228px;
   }
@@ -478,6 +478,41 @@ section .tablet{
   width: 127px; 
   height: 52px;
   padding-right: 45px;
+}
+.social-media-block{
+  padding-top:16px;
+}
+.social-media{
+  display:flex;
+  margin-right:250px;
+  li{
+    list-style: none;
+    font-size:25px;
+  }
+  @include media-query($on-palm){
+    margin-right:10px;
+  }
+  
+}
+.soacial-media-icons{
+ padding-left:30px;
+  @include media-query($on-palm){
+    padding-left:5px;
+  }
+}
+.footer{
+  .wrapper{
+    display:flex;
+  }
+  .privacy-policy{
+    padding-top:16px;
+    display:flex;
+  }
+}
+.download-link-windows{
+  @include media-query($on-palm){
+    display:none;
+  }
 }
 .front{transform: rotateY(0deg) translateZ(50px)}
 .back{transform: rotateY(-180deg) translateZ(50px)}
