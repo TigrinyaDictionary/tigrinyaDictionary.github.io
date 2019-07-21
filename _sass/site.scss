@@ -474,10 +474,18 @@ section .tablet{
   display: flex;
   padding-bottom: 100px;
 }
-.windows-badge{
-  width: 127px; 
+.store-badge{
+  width: 183px; 
   height: 52px;
   padding-right: 45px;
+}
+.microsoft-badge{
+  height: 60px;
+  padding: 13px;
+}
+.google-badge{
+  height: 93px;
+  width: 210px;
 }
 .social-media-block{
   padding-top:16px;
