@@ -289,7 +289,7 @@ input.search{
     display:block;
   }
   @include media-query ($on-laptop){
-    padding: 0px;
+    padding-top: 156px;
   }
 }
 .home{

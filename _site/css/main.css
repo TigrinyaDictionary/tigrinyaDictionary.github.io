@@ -800,7 +800,7 @@ input.search {
       display: block; } }
   @media screen and (max-width: 1080px) {
     .devices-available {
-      padding: 0px; } }
+      padding-top: 156px; } }
 
 .home {
   padding-top: 150px; }
