@@ -184,6 +184,15 @@ main header .stripes .stripe {
   opacity: .3;
   background: linear-gradient(45deg, #b2bdcc, #1f5188);
 }
+.mobile-icon{
+  display: flex;
+}
+h5 .intro-content-title{
+  padding: 20px;
+}
+.mobile-app-name{
+  padding: 20px;
+}
 /*.laptop .chassis * {
   /*opacity: .3;
   background: linear-gradient(45deg, #101215, #8190a0);
@@ -381,7 +390,7 @@ aside ul li:before {
 }
 .future-development-content{
   max-width: 500px;
-  padding-top:90px;
+  
 
   @include media-query($on-palm){
     margin-left: 0px;
