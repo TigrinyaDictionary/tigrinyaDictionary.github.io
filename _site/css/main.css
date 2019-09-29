@@ -984,7 +984,7 @@ section .tablet {
 .store-badge {
   width: 183px;
   height: 52px;
-  padding-right: 45px; }
+  padding-right: 12px; }
 
 .microsoft-badge {
   height: 60px;
