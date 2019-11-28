@@ -17,7 +17,7 @@ display:grid;
 grid:repeat(3,342px)/repeat(10,1fr);
 
 @include media-query($on-palm){
-  grid: repeat(5,200px)/repeat(10,1fr);
+  grid: repeat(5,180px)/repeat(10,1fr);
 }
    
 }

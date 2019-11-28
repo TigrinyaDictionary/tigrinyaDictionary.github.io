@@ -548,7 +548,7 @@ table {
   grid: repeat(3, 342px)/repeat(10, 1fr); }
   @media screen and (max-width: 769px) {
     .main header .stripes {
-      grid: repeat(5, 200px)/repeat(10, 1fr); } }
+      grid: repeat(5, 180px)/repeat(10, 1fr); } }
 
 header .stripes .s1 {
   grid-column: span 3;
