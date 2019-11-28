@@ -545,7 +545,7 @@ table {
 
 .main header .stripes {
   display: grid;
-  grid: repeat(3, 250px)/repeat(10, 1fr); }
+  grid: repeat(3, 342px)/repeat(10, 1fr); }
   @media screen and (max-width: 769px) {
     .main header .stripes {
       grid: repeat(5, 200px)/repeat(10, 1fr); } }
@@ -824,7 +824,7 @@ input.search {
 
 .laptop-devices-content {
   grid-row: 1;
-  grid-column: 1/span 9; }
+  grid-column: 1/span 16; }
   @media screen and (max-width: 769px) {
     .laptop-devices-content {
       padding-top: 2px;
@@ -979,7 +979,8 @@ section .tablet {
 
 .download-link {
   display: flex;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  padding-top: 54px; }
 
 .store-badge {
   width: 183px;
