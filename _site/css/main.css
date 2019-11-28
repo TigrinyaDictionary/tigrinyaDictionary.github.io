@@ -980,7 +980,10 @@ section .tablet {
 .download-link {
   display: flex;
   padding-bottom: 100px;
-  padding-top: 32px; }
+  padding-top: 50px; }
+  @media screen and (max-width: 769px) {
+    .download-link {
+      padding-top: 12px; } }
 
 .store-badge {
   width: 183px;

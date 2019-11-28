@@ -482,7 +482,10 @@ section .tablet{
 .download-link{
   display: flex;
   padding-bottom: 100px;
-  padding-top:32px;
+  padding-top:50px;
+  @include media-query($on-palm){
+    padding-top:12px;
+  }
 }
 .store-badge{
   width: 183px; 
