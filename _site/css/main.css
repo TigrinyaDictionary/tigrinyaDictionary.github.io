@@ -558,7 +558,7 @@ header .stripes .s1 {
 
 header .stripes .s2 {
   grid-row: 2;
-  grid-column: span 4;
+  grid-column: span 1;
   background: -webkit-gradient(linear, left top, right top, from(#adacbd), to(rgba(255, 199, 107, 0)));
   background: linear-gradient(90deg, #adacbd, rgba(255, 199, 107, 0));
   transform: skewY(-12deg); }
@@ -964,7 +964,7 @@ section .tablet {
 
 .main-introduction {
   grid-row: 1;
-  grid-column: 2/span 6;
+  grid-column: 2/span 2;
   padding: 75px 0 75px 0; }
   @media screen and (max-width: 769px) {
     .main-introduction {
