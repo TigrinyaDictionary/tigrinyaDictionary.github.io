@@ -7,8 +7,8 @@
 }*/
 .main header{
   position: relative;
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,#507eb1),color-stop(23%,#f9d281),color-stop(71%,#fffdf3));
-  background: linear-gradient(#507eb1,#709dc7 13%,#dde9f5 38%,#eaf2f9 48%,#f6f9fc 52%);
+  /*background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,#507eb1),color-stop(23%,#f9d281),color-stop(71%,#fffdf3));
+  background: linear-gradient(#507eb1,#709dc7 13%,#dde9f5 38%,#eaf2f9 48%,#f6f9fc 52%);*/
   overflow: hidden;
 }
 .main header .stripes{
@@ -30,8 +30,8 @@ header .stripes .s1 {
 header .stripes .s2 {
   grid-row: 2;
   grid-column: span 1;
-  background: -webkit-gradient(linear,left top,right top,from(#adacbd),to(rgba(255,199,107,0)));
-  background: linear-gradient(90deg,#adacbd,rgba(255,199,107,0));
+  /*background: -webkit-gradient(linear,left top,right top,from(#adacbd),to(rgba(255,199,107,0)));
+  background: linear-gradient(90deg,#adacbd,rgba(255,199,107,0));*/
   transform: skewY(-12deg);
 }
 header .stripes .s3 {
@@ -186,6 +186,7 @@ main header .stripes .stripe {
 }
 .mobile-icon{
   display: flex;
+  width:75%;
 }
 h5 .intro-content-title{
   padding: 20px;
@@ -352,13 +353,11 @@ aside ul li:before {
 }
 .dictionary-functionality{
   display: flex;
-  background: #f6f9fc;
   padding: 50px 0 150px 0;
   flex-direction: column;
-  max-width: 1040px;
-  padding-left: 124px;
+  
   @include media-query ($on-palm){
-    padding: 0 55px;
+    
   }
  
 }
@@ -368,7 +367,7 @@ aside ul li:before {
   border-radius: 38px;
   box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173,186,204,.25), 0 2px 6px rgba(0,21,64,.14), 0 10px 20px rgba(0,21,64,.05);
   background-color: #fff;
-  margin-left: 154px;
+ 
   @include media-query($on-palm){
     margin-left:-7px;
     width: 271px;
@@ -389,9 +388,6 @@ aside ul li:before {
     }
 }
 .future-development-content{
-  max-width: 500px;
-  
-
   @include media-query($on-palm){
     margin-left: 0px;
     padding-top: 0px;
@@ -400,7 +396,7 @@ aside ul li:before {
 section .tablet{
   display: flex;
   padding: 10px 0 30px 0;
-  justify-content: space-evenly;
+  flex-direction:column;
   @include media-query($on-palm){
     flex-direction: column;
     
@@ -468,17 +464,16 @@ section .tablet{
   grid-row: 1;
   grid-column: 2/span 1;
   padding: 75px 0 75px 0;
+  width:75%;
   @include media-query($on-palm){
     grid-column: 2/span 6;
-    width: 310px;
+    width:302px;
   }
 }
 .main-introduction h2{
   padding-bottom: 20px;
 }
-.future-development{
-  background-color: #f6f9fc;
-}
+
 .download-link{
   display: flex;
   padding-bottom: 100px;
@@ -718,6 +713,9 @@ div.ui-datepicker{
 .how-to{
   background-color:#00B2EE;
   padding: 100px 0px 100px 0px;
+}
+.whatToDo-contents{
+  width:75%;
 }
 
 

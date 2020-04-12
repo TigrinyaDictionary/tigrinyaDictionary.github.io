@@ -1,11 +1,13 @@
 /* Site Header
  * ============================================== backgroud-color: #2dc3e8;*/
     .site-header {
-        position: absolute;
+        position: fixed;
         width: 100%;
         z-index:100;
         display:flex;
         justify-content: space-between;
+        background-color:#009fd5;
+        height:57px;
     }
 
     .site-header a {color: #FFF;}

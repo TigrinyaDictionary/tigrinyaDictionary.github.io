@@ -14,7 +14,7 @@ body {
   line-height: 1.1446;
   font-weight: 400;
   color: #333333;
-  background-color: #FFF !important;
+  background: linear-gradient(#507eb1, #709dc7 13%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 52%) !important;
   font-style: normal;
   letter-spacing: 0em;
   -webkit-text-size-adjust: 100%; }
@@ -24,14 +24,14 @@ body {
 html {
   font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 112.5%;
-  quotes: "ÔÇ£" "ÔÇØ"; }
+  quotes: "“" "”"; }
 
 /* Set Margin Bottom for Vertical Rhythm
  * ============================================== */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure {
-  margin-bottom: 15px; }
+  margin-bottom: 39px; }
 
 /* Images and Figures
  * ============================================== */
@@ -88,7 +88,7 @@ a {
 blockquote {
   color: #BBB;
   border-left: 4px solid #00B2EE;
-  padding-left: 15px;
+  padding-left: 39px;
   font-size: 17px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -122,18 +122,18 @@ pre {
 /* Wrapper
  * ============================================== */
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(1000px - (78px * 2));
+  max-width: calc(1000px - (78px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  padding-right: 78px;
+  padding-left: 78px; }
   @media screen and (max-width: 1080px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (30px));
-      max-width: calc(1000px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(1000px - (78px));
+      max-width: calc(1000px - (78px));
+      padding-right: 39px;
+      padding-left: 39px; } }
 
 /* Clear Fix
  * ============================================== */
@@ -168,11 +168,13 @@ table {
 /* Site Header
  * ============================================== backgroud-color: #2dc3e8;*/
 .site-header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 100;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: #009fd5;
+  height: 57px; }
 
 .site-header a {
   color: #FFF; }
@@ -278,7 +280,7 @@ table {
 /* Post Format
  * ============================================== */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 78px; }
 
 .post-title {
   font-size: 42px;
@@ -286,7 +288,7 @@ table {
   line-height: 1; }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 78px; }
 
 /* Syntax Highlighting
  * ============================================== */
@@ -539,8 +541,8 @@ table {
 }*/
 .main header {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #507eb1), color-stop(23%, #f9d281), color-stop(71%, #fffdf3));
-  background: linear-gradient(#507eb1, #709dc7 13%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 52%);
+  /*background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,#507eb1),color-stop(23%,#f9d281),color-stop(71%,#fffdf3));
+  background: linear-gradient(#507eb1,#709dc7 13%,#dde9f5 38%,#eaf2f9 48%,#f6f9fc 52%);*/
   overflow: hidden; }
 
 .main header .stripes {
@@ -559,8 +561,8 @@ header .stripes .s1 {
 header .stripes .s2 {
   grid-row: 2;
   grid-column: span 1;
-  background: -webkit-gradient(linear, left top, right top, from(#adacbd), to(rgba(255, 199, 107, 0)));
-  background: linear-gradient(90deg, #adacbd, rgba(255, 199, 107, 0));
+  /*background: -webkit-gradient(linear,left top,right top,from(#adacbd),to(rgba(255,199,107,0)));
+  background: linear-gradient(90deg,#adacbd,rgba(255,199,107,0));*/
   transform: skewY(-12deg); }
 
 header .stripes .s3 {
@@ -696,7 +698,8 @@ main header .stripes .stripe {
   background: linear-gradient(45deg, #b2bdcc, #1f5188); }
 
 .mobile-icon {
-  display: flex; }
+  display: flex;
+  width: 75%; }
 
 h5 .intro-content-title {
   padding: 20px; }
@@ -859,22 +862,15 @@ aside ul li:before {
 
 .dictionary-functionality {
   display: flex;
-  background: #f6f9fc;
   padding: 50px 0 150px 0;
-  flex-direction: column;
-  max-width: 1040px;
-  padding-left: 124px; }
-  @media screen and (max-width: 769px) {
-    .dictionary-functionality {
-      padding: 0 55px; } }
+  flex-direction: column; }
 
 .tablet-landscape {
   width: 401px;
   height: 314px;
   border-radius: 38px;
   box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
-  background-color: #fff;
-  margin-left: 154px; }
+  background-color: #fff; }
   @media screen and (max-width: 769px) {
     .tablet-landscape {
       margin-left: -7px;
@@ -894,17 +890,15 @@ aside ul li:before {
     .tablet-landscape img {
       width: 212px; } }
 
-.future-development-content {
-  max-width: 500px; }
-  @media screen and (max-width: 769px) {
-    .future-development-content {
-      margin-left: 0px;
-      padding-top: 0px; } }
+@media screen and (max-width: 769px) {
+  .future-development-content {
+    margin-left: 0px;
+    padding-top: 0px; } }
 
 section .tablet {
   display: flex;
   padding: 10px 0 30px 0;
-  justify-content: space-evenly; }
+  flex-direction: column; }
   @media screen and (max-width: 769px) {
     section .tablet {
       flex-direction: column; } }
@@ -964,18 +958,16 @@ section .tablet {
 
 .main-introduction {
   grid-row: 1;
-  grid-column: 2/span 2;
-  padding: 75px 0 75px 0; }
+  grid-column: 2/span 1;
+  padding: 75px 0 75px 0;
+  width: 75%; }
   @media screen and (max-width: 769px) {
     .main-introduction {
       grid-column: 2/span 6;
-      width: 310px; } }
+      width: 302px; } }
 
 .main-introduction h2 {
   padding-bottom: 20px; }
-
-.future-development {
-  background-color: #f6f9fc; }
 
 .download-link {
   display: flex;
@@ -1210,3 +1202,6 @@ ol.rs-carousel-pagination {
 .how-to {
   background-color: #00B2EE;
   padding: 100px 0px 100px 0px; }
+
+.whatToDo-contents {
+  width: 75%; }
