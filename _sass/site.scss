@@ -432,11 +432,11 @@ section .tablet{
 		font-weight:700 !important;
 		line-height:1.5;
 		letter-spacing:0.05em;
-		margin-left:287px;
+		padding-right:247px;
 
 		@include media-query($on-palm){
 		font-weight: 300;
-		margin-left:50px;
+    padding-right:15px;
 		}
     }
 .cube{
