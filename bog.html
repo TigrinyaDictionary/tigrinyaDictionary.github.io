@@ -1,0 +1,54 @@
+---
+layout: page
+title: Blog
+permalink: /Blog/
+description: Blogs about the latest technologies
+
+---
+
+<!DOCTYPE html>
+<html>
+
+ 
+  <body>
+
+   
+
+    <div class="page-content">
+     
+      <div class="wrapper">
+                
+         <div class="home">
+        
+
+  
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
+       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+  <br/>  
+
+
+</div>
+
+            
+
+      </div>
+
+    </div>
+
+
+  
+    
+
+   
+
+  </body>
+</html>

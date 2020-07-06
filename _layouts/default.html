@@ -9,14 +9,11 @@
     {% include header.html %}
 
     <div class="page-content">
-       {% if page.title == 'About' %}
-          <div class="photo-about">
-              <h1 class="headline-kt"> About me</h1>
-          </div>
-        {% endif %}
+       {% if page.title != 'PrivacyPolicy' %}
       <div class="wrapper">
         {{ content }}
       </div>
+      {% endif %}
 
     </div>
 
