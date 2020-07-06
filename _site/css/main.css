@@ -197,7 +197,6 @@ table {
       position: absolute;
       top: 3px;
       right: 3px;
-      background-color: #ccc;
       border: 1px solid #cfcfcf;
       border-radius: 5px;
       text-align: right;
@@ -981,6 +980,9 @@ section .tablet {
   width: 183px;
   height: 52px;
   padding-right: 12px; }
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9"; }
 
 .microsoft-badge {
   height: 60px;
