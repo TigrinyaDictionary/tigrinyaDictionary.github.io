@@ -720,6 +720,35 @@ div.ui-datepicker{
 .whatToDo-contents{
   width:75%;
 }
+/* Download page styling
+========================================================= */
+.download-inner-section{
+  display:flex;
+  flex-direction: column;
+ 
+}
+.download-section{
+  background-color: #3498DB;
+}
+.mobile-images{
+  display:flex;
+  flex-direction: row;
+}
+.download-header{
+  color:#FFF;
+  text-align: center;
+  padding: 15px 0;
+}
+.badge-section{
+  text-align: center;
+}
+.download-inner-text p{
+  margin-top:20px;
+  color:#FFF;
+}
+.download-inner-section-ipad{
+  margin:60px 0px;
+}
 
 
  
