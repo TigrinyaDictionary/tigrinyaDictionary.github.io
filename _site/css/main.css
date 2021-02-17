@@ -1235,3 +1235,8 @@ ol.rs-carousel-pagination {
 
 .download-inner-section-ipad {
   margin: 60px 0px; }
+
+.app-icon {
+  margin-bottom: 40px; }
+  .app-icon a {
+    color: #FFF; }
