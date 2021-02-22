@@ -1240,3 +1240,15 @@ ol.rs-carousel-pagination {
   margin-bottom: 40px; }
   .app-icon a {
     color: #FFF; }
+
+/* About page styling
+========================================================= */
+.about-content {
+  margin: 50px 0; }
+  .about-content .about-page-header {
+    margin: 10px 0; }
+
+/* Google translate styling
+========================================================= */
+.contribute-section li {
+  list-style: none; }
