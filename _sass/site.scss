@@ -454,11 +454,11 @@ section .tablet{
 }
 .main-introduction{
   grid-row: 1;
-  grid-column: 2/span 1;
+  grid-column: 1/span 11;
   padding: 75px 0 75px 0;
   width:75%;
   @include media-query($on-palm){
-    grid-column: 2/span 6;
+    grid-column: 1/span 6;
     width:302px;
   }
 }
