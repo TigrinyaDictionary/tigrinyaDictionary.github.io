@@ -548,10 +548,10 @@ table {
 
 .main header .stripes {
   display: grid;
-  grid: repeat(3, 342px)/repeat(10, 1fr); }
+  grid: repeat(2, 362px)/repeat(10, 1fr); }
   @media screen and (max-width: 769px) {
     .main header .stripes {
-      grid: repeat(5, 180px)/repeat(10, 1fr); } }
+      grid: repeat(6, 170px)/repeat(10, 1fr); } }
 
 header .stripes .s1 {
   grid-column: span 3;
@@ -792,19 +792,12 @@ input.search {
   position: absolute; }
 
 .devices-available {
-  display: grid;
-  grid-row: 2;
-  /* grid: auto/1fr auto;*/
-  grid-gap: 0 70px;
   margin: 0 auto;
   max-width: 1040px; }
   @media screen and (max-width: 769px) {
     .devices-available {
       max-width: 1040px;
       display: block; } }
-  @media screen and (max-width: 1080px) {
-    .devices-available {
-      padding-top: 156px; } }
 
 .home {
   padding-top: 50px; }
@@ -826,16 +819,10 @@ input.search {
   color: #525f7f;
   margin: 25px 10% 25px 0; }
 
-.laptop-devices-content {
-  grid-row: 1;
-  grid-column: 1/span 16; }
-  @media screen and (max-width: 769px) {
-    .laptop-devices-content {
-      padding-top: 2px;
-      width: 360px; } }
-  @media screen and (max-width: 1080px) {
-    .laptop-devices-content {
-      grid-column: 1/span 6; } }
+@media screen and (max-width: 769px) {
+  .laptop-devices-content {
+    padding-top: 2px;
+    width: 360px; } }
 
 .dictionary-functionality aside {
   border-radius: 4px;
@@ -863,7 +850,7 @@ aside ul li:before {
 
 .dictionary-functionality {
   display: flex;
-  padding: 50px 0 150px 0;
+  padding: 0px 0 0px 0;
   flex-direction: column; }
 
 .tablet-landscape {
@@ -898,7 +885,7 @@ aside ul li:before {
 
 section .tablet {
   display: flex;
-  padding: 10px 0 30px 0;
+  padding: 0px 0 30px 0;
   flex-direction: column; }
   @media screen and (max-width: 769px) {
     section .tablet {
@@ -948,11 +935,7 @@ section .tablet {
 
 .laptop-devices-content .dictionary-functionality-content {
   margin: 0px;
-  padding-top: 90px;
   padding-bottom: 40px; }
-  @media screen and (max-width: 769px) {
-    .laptop-devices-content .dictionary-functionality-content {
-      padding-top: 130px; } }
 
 .dictionary-functionality-content h4 {
   padding: 50px 0 10px 0; }
@@ -972,7 +955,7 @@ section .tablet {
 
 .download-link {
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   padding-top: 50px; }
   @media screen and (max-width: 769px) {
     .download-link {
