@@ -4,7 +4,7 @@
 
 // Our variables
 $base-font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$base-font-size:   18px;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.895;
 $large-font-size:  $base-font-size * 1.40;
 
@@ -25,6 +25,14 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    1000px;
 $on-palm:          769px;
 $on-laptop:        1080px;
+
+/*** VARIABLES ***/
+/* Colors */
+$black: #1d1f20;
+$blue: #83e4e2;
+$green: #a2ed56;
+$yellow: #fddc32;
+$white: #fafafa;
 
 
 

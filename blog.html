@@ -1,0 +1,28 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+description: tigrinya dictionary app, Tigrinya dictionary, tigringna dictionary, tigrinya translation app, tigrinya dictionary offline app, tigrigna language, tigrinya, tigrinya language, habesha software, .NET Developer
+---
+<div class="home">
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        
+    </div>
+     
+<style>
+    .footer{
+        position:fixed;
+        bottom:1px;
+        width:100%;
+    }
+    body{
+        background: #f5f5f7 !important;
+    }
+</style>
