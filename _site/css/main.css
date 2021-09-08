@@ -997,9 +997,14 @@ section .tablet {
 
 .footer .wrapper {
   display: flex; }
+.footer a {
+  color: #fff; }
 .footer .privacy-policy {
   padding-top: 16px;
-  display: flex; }
+  display: flex;
+  color: #fff; }
+  .footer .privacy-policy p {
+    padding-right: 10px; }
 
 @media screen and (max-width: 769px) {
   .download-link-windows {
@@ -1314,3 +1319,19 @@ ol.gradient-list {
       background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%); }
     ol.gradient-list > li + li {
       margin-top: 2rem; }
+
+.footer-section {
+  background: #3498DB; }
+  .footer-section .newsletter-wrap {
+    margin: 0 auto;
+    /* max-width: 600px; */
+    width: 100%;
+    position: relative; }
+    .footer-section .newsletter-wrap .newsletter-title-wrap, .footer-section .newsletter-wrap .newsletter-description-wrap {
+      color: #fff;
+      margin: 0 auto;
+      display: table;
+      position: relative;
+      padding-top: 20px; }
+    .footer-section .newsletter-wrap #mc_embed_signup {
+      background: #3498DB; }

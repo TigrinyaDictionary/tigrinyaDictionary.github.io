@@ -515,10 +515,18 @@ section .tablet{
   .wrapper{
     display:flex;
   }
+  a{
+    color:#fff;
+  }
   .privacy-policy{
     padding-top:16px;
     display:flex;
+    color:#fff;
+    p{
+      padding-right:10px;
+    }
   }
+  
 }
 .download-link-windows{
   @include media-query($on-palm){
@@ -848,5 +856,25 @@ ol.gradient-list {
     }
   }
 }
+.footer-section{
+  background: #3498DB;
+.newsletter-wrap {
+  margin: 0 auto;
+  /* max-width: 600px; */
+  width: 100%;
+  position: relative;
+  .newsletter-title-wrap, .newsletter-description-wrap {
+    color:#fff;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    padding-top:20px;
+ }
+ #mc_embed_signup{
+   background: #3498DB;
+ }
+}
+}
+
 
  
